@@ -1,0 +1,29 @@
+<nav class="container-fluid p-0">
+    <div class="logo">
+        <div class="imagen">
+            <img src="../../../assets/img/software.png" alt="Logo">
+        </div>
+        <div class="titlelogo">
+            <h3>TempSimple</h3>
+        </div>
+    </div>
+    <div class="menu">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" (click)="toAbout()">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="toServices()">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="toDescripcion()">Descripcion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="toContact()">Contactanos</a>
+            </li>
+          </ul>
+    </div>
+    <div class="share">
+        <a href="#"><fa-icon [icon]="faBell"></fa-icon></a>
+    </div>
+</nav>

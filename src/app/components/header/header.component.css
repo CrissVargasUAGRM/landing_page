@@ -1,0 +1,55 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagen{
+    width: 75px;
+}
+
+.logo img{
+    width: 75px;
+    padding: 10px;
+}
+
+.titlelogo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    line-height: 25px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.share{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share a{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.45);
+}
